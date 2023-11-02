@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Basic -->
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>Yamifood Restaurant - Responsive HTML5 Template</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
+    <link rel="apple-touch-icon" href="{% static 'images/apple-touch-icon.png' %}">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">    
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+	<!-- Start header -->
+<header class="top-navbar">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container">
+			<form class="form-horizontal">
+			
+			<div class="collapse navbar-collapse" id="navbars-rs-food">
+				<ul class="navbar-nav ml-auto">
+					<a class="navbar-brand" href="index.html">
+						<img src="images/logo.png" alt="" />
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					  <span class="navbar-toggler-icon"></span>
+					</button>
+					<li class="nav-item "><a class="nav-link" href="index.html">Inicio</a></li>
+					<li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+					<li class="nav-item "><a class="nav-link" href="about.html">Sobre nosotros</a></li>
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Blog y personal</a>
+						<div class="dropdown-menu" aria-labelledby="dropdown-a">								
+							<a class="dropdown-item active" href="blog-details.html">Blog</a>								
+							<a class="dropdown-item" href="stuff.html">Stuff</a>								
+						</div>
+					</li>							
+					<li class="nav-item"><a class="nav-link" href="contact.html">Contacta</a></li>
+					<li class="nav-item"><a class="nav-link"  href="reservation.html">¡Reserva YA!</a></li>
+					<li class="nav-item"><a class="nav-link" href="registro.html">Registrate</a></li>					
+
+					<div class="nav-item dropdown">
+						<form class="form-horizontal loginFrm">
+						  <div class="control-group">								
+							<input type="text" id="inputEmail" placeholder="Correo electrónico">
+						  </div>
+						  <div class="control-group">
+							<input type="password" id="inputPassword" placeholder="Contraseña">
+						  </div>
+						  <div class="control-group">
+							<label class="checkbox">
+							<input type="checkbox"> Recuérdame
+							</label>
+						  </div>
+						</form>		
+						
+					</div>
+					<li class="nav-item"><button class="btn btn-common" id="submit" type="submit">Login</button></li>	
+
+				</ul>
+			</div>
+		</form>
+		</div>
+	</nav>
+</header>
+<!-- End header -->
+	
+	<!-- Start All Pages -->
+	<div class="all-page-title page-breadcrumb">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1>Blog</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End All Pages -->
+	
+	<!-- Start blog details -->
+	<div class="blog-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="heading-title text-center">
+						<h2>Blog</h2>
+						<p>Contamos aquí nuestras experiencias, no dudes en contar también las tuyas.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xl-8 col-lg-8 col-12">
+					<div class="blog-inner-details-page">
+						<div class="blog-inner-box">
+							<div class="side-blog-img">
+								<img class="img-fluid" src="images/blog.jpg" alt="">							
+								<div class="date-blog-up">
+									27 Fab
+								</div>
+							</div>
+							<div class="inner-blog-detail details-page">
+								<h3>En busca del sabor perfecto.</h3>
+								<ul>
+									<li><i class="zmdi zmdi-account"></i>Creado por: <span>Rubel Ahmed</span></li>
+									<li>|</li>
+									<li><i class="zmdi zmdi-time"></i>Hora : <span>11.30 am</span></li>
+								</ul>
+								<p>Después de muchos viajes internacionales descubriendo las mejores recetas artesanales hemos podido  desarrollar un estilo de cocina único en Teruel.</p>
+								<p>Nuestra misión es sencilla, tratar al animal desde que nace hasta que se sirve en la mesa con los mejores cuidados para hacer una carne de calidad.</p>
+								<blockquote>
+									<p>La mejor carne americana, gallega, argentina y asturiana</p>
+								</blockquote>
+							
+							</div>
+						</div>
+						<div class="blog-comment-box">
+							<h3>Comments</h3>
+							<div class="comment-item">
+								<div class="comment-item-left">
+									<img src="images/cristianoronaldo.jpg" alt="">
+								</div>
+								<div class="comment-item-right">
+									<div class="pull-left">
+										<a href="#">Cristiano Ronaldo</a>
+									</div>
+									<div class="pull-right">
+										<i class="fa fa-clock-o" aria-hidden="true"></i>Hora : <span>11.30 am</span>
+									</div>
+									<div class="des-l">
+										<p>¿Hay menú vegano?</p>
+									</div>
+									<a href="#" class="right-btn-re"><i class="fa fa-reply" aria-hidden="true"></i> Respuesta</a>
+								</div>
+							</div>
+							<div class="comment-item children">
+								<div class="comment-item-left">
+									<img src="images/ibai.jpg" alt="">
+								</div>
+								<div class="comment-item-right">
+									<div class="pull-left">
+										<a href="#">Ibai Llanos</a>
+									</div>
+									<div class="pull-right">
+										<i class="fa fa-clock-o" aria-hidden="true"></i>Hora : <span>1.30 pm</span>
+									</div>
+									<div class="des-l">
+										<p>A mi me pasó igual que a ti, pensaba que solo habría carne y también hay un menú vegano delicioso</p>
+									</div>
+									<a href="#" class="right-btn-re"><i class="fa fa-reply" aria-hidden="true"></i> Respuesta</a>
+								</div>
+							</div>
+							<div class="comment-item">
+								<div class="comment-item-left">
+									<img src="images/cristianoronaldo.jpg" alt="">
+								</div>
+								<div class="comment-item-right">
+									<div class="pull-left">
+										<a href="#">Cristiano Ronaldo</a>
+									</div>
+									<div class="pull-right">
+										<i class="fa fa-clock-o" aria-hidden="true"></i>Hora : <span>11.30 am</span>
+									</div>
+									<div class="des-l">
+										<p>Menos mal porque tenia la impresion de que solo habría carne</p>
+									</div>
+									<a href="#" class="right-btn-re"><i class="fa fa-reply" aria-hidden="true"></i> Respuesta</a>
+								</div>
+							</div>
+						</div>
+						<div class="comment-respond-box">
+							<h3>Deja tu comentario </h3>
+							<div class="comment-respond-form">
+								<form id="commentrespondform" class="comment-form-respond row" method="post">
+									<div class="col-lg-6 col-md-6 col-sm-6">
+										<div class="form-group">
+											<input id="name_com" class="form-control" name="name" placeholder="Name" type="text">
+										</div>
+										<div class="form-group">
+											<input id="email_com" class="form-control" name="email" placeholder="Your Email" type="email">
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-6">
+										<div class="form-group">
+											<textarea class="form-control" id="textarea_com" placeholder="Your Message" rows="2"></textarea>
+										</div>
+									</div>
+									<div class="col-lg-12 col-md-12 col-sm-12">
+										<button class="btn btn-submit">Enviar comentario </button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-8 col-12 blog-sidebar">
+					<div class="right-side-blog">
+						<h3>Buscar</h3>
+						<div class="blog-search-form">
+							<input name="search" placeholder="Buscar en el blog" type="text">
+							<button class="search-btn">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</button>
+						</div>
+						<h3>Categorias</h3>
+						<div class="blog-categories">
+							<ul>
+								<li><a href="#"><span>Comida</span></a></li>
+								<li><a href="#"><span>Pizza</span></a></li>
+								<li><a href="#"><span>Bebida</span></a></li>
+								<li><a href="#"><span>Hamburguesa</span></a></li>
+							</ul>
+						</div>
+						<h3>Publicación reciente</h3>
+						<div class="post-box-blog">
+							<div class="recent-post-box">
+								<div class="recent-box-blog">
+									<div class="recent-img">
+										<img class="img-fluid" src="images/post-img-01.jpg" alt="">
+									</div>
+									<div class="recent-info">
+										<ul>
+											<li><i class="zmdi zmdi-account"></i>Posteado por : <span>Rubel Ahmed</span></li>
+											<li>|</li>
+											<li><i class="zmdi zmdi-time"></i>Hora : <span>11.30 am</span></li>
+										</ul>
+										<h4>En busca del sabor perfecto.</h4>
+									</div>
+								</div>
+								<div class="recent-box-blog">
+									<div class="recent-img">
+										<img class="img-fluid" src="images/post-img-02.jpg" alt="">
+									</div>
+									<div class="recent-info">
+										<ul>
+											<li><i class="zmdi zmdi-account"></i>Posteado por : <span>Rubel Ahmed</span></li>
+											<li>|</li>
+											<li><i class="zmdi zmdi-time"></i>Hora : <span>14.30 am</span></li>
+										</ul>
+										<h4>La carne frita sabe mejor.</h4>
+									</div>
+								</div>
+								<div class="recent-box-blog">
+									<div class="recent-img">
+										<img class="img-fluid" src="images/post-img-03.jpg" alt="">
+									</div>
+									<div class="recent-info">
+										<ul>
+											<li><i class="zmdi zmdi-account"></i>Posteado por  : <span>Rubel Ahmed</span></li>
+											<li>|</li>
+											<li><i class="zmdi zmdi-time"></i>Time : <span>11.30 am</span></li>
+										</ul>
+										<h4>Hay que seguir una dieta equilibrada.</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<h3>Recent Tag</h3>
+						<div class="blog-tag-box">
+							<ul class="list-inline tag-list">
+								<li><a href="#"><span>Comida</span></a></li>
+								<li><a href="#"><span>Pizza</span></a></li>
+								<li><a href="#"><span>Bebida</span></a></li>
+								<li><a href="#"><span>Hamburguesa</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+	</div>
+	<!-- End details -->
+	
+	<!-- Start Contact info -->
+	<div class="contact-imfo-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<i class="fa fa-volume-control-phone"></i>
+					<div class="overflow-hidden">
+						<h4>Teléfono del restaurante</h4>
+						<p class="lead">
+							+34 978 123 456
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<i class="fa fa-envelope"></i>
+					<div class="overflow-hidden">
+						<h4>Email</h4>
+						<p class="lead">
+							fraidias@unizar.es <br>rober@unizar.es
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<i class="fa fa-map-marker"></i>
+					<div class="overflow-hidden">
+						<h4>¡Encuéntranos!</h4>
+						<p class="lead">
+							Calle Atarazana, 2, 44003 Teruel
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Contact info -->
+	
+	<!-- Start Footer -->
+	<footer class="footer-area bg-f">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<h3>Sobre nosotros</h3>
+					<p>
+						NABOWIL restaurant, es un asador de comercio local, que surgió en 1866 y que está especializado en carnes a la brasa
+					</p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Horarios</h3>
+					<p><span class="text-color">Lunes: </span>Cerrados</p>
+					<p><span class="text-color">Martes y Miércoles :</span> 12:30 a 16:00 y 20:00 a 23:00</p>
+					<p><span class="text-color">Jueves y Viernes :</span> 12:30 a 16:00 y 20:00 a 00:00</p>
+					<p><span class="text-color">Sábados y Domingos :</span> 13:00 a 00:00</p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Información de contacto</h3>
+					<p class="lead">Calle Atarazanas, Teruel. 44003</p>
+					<p class="lead"><a href="#">+34 654 321 987</a></p>
+					<p><a href="#"> yamifood@unizar.es</a></p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Subscribe</h3>
+					<div class="subscribe_form">
+						<form class="subscribe_form">
+							<input name="EMAIL" id="subs-email" class="form_input" placeholder="Email ..." type="email">
+							<button type="submit" class="submit">Suscribirse</button>
+							<div class="clearfix"></div>
+						</form>
+					</div>
+					<ul class="list-inline f-social">
+						<li class="list-inline-item"><a href="https://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="https://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="https://instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<p class="company-name">All Rights Reserved. &copy; 2018 <a href="#">Yamifood Restaurant</a> Design By : 
+					<a href="https://html.design/">Roberto Jiménez y Álvaro Fraidias</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</footer>
+	<!-- End Footer -->
+	
+	<a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+
+	<!-- ALL JS FILES -->
+	<script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+	<script src="{% static 'js/popper.min.js' %}"></script>
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <!-- ALL PLUGINS -->
+	
+	<script src="{% static 'js/jquery.superslides.min.js' %}"></script>
+	<script src="{% static 'js/images-loded.min.js' %}"></script>
+	<script src="{% static 'js/isotope.min.js' %}"></script>
+	<script src="{% static 'js/baguetteBox.min.js' %}"></script>
+	<script src="{% static 'js/form-validator.min.js' %}"></script>
+    <script src="{% static 'js/contact-form-script.js' %}"></script>
+    <script src="{% static 'js/custom.js' %}"></script>
+</body>
+</html>
